@@ -11,6 +11,8 @@ db.sqlite3  # If you're using SQLite (adjust if using another DB)
 media/  # User-uploaded media files (if stored locally)
 static/  # Compiled static files (use `collectstatic` in production)
 venv/  # Virtual environment directory (ignore the entire virtualenv)
+venv/ and 
+env/
 
 # PyCharm or JetBrains IDEs
 .idea/
