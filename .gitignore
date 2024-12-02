@@ -1,0 +1,55 @@
+# Python bytecode files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Django specific
+*.log
+local_settings.py  # If you use local settings (ensure it's not versioned)
+db.sqlite3  # If you're using SQLite (adjust if using another DB)
+media/  # User-uploaded media files (if stored locally)
+static/  # Compiled static files (use `collectstatic` in production)
+venv/  # Virtual environment directory (ignore the entire virtualenv)
+
+# PyCharm or JetBrains IDEs
+.idea/
+
+# VS Code
+.vscode/
+
+# MacOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+Desktop.ini
+
+# Node.js (if you're using Node.js for front-end)
+node_modules/
+
+# Environment variables file
+.env  # Store sensitive information in environment variables, don't version them
+
+# Backup files
+*.bak
+*.swp  # Vim swap files
+
+# VS Code settings (if you are using VS Code)
+.vscode/
+
+# Pytest
+.cache/  # If you use pytest for tests, it creates a .cache folder
+
+# Docker
+docker-compose.override.yml  # Docker Compose override files are typically environment-specific
+docker/.env  # Ignore Docker-specific env files (if you have any)
+
+# Jupyter notebooks
+.ipynb_checkpoints/  # Ignore Jupyter notebook checkpoint files
+
+# Windows installer logs
+*.cab
+*.msi
+*.msm
+*.msp
