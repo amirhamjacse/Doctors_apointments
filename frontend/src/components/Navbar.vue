@@ -19,6 +19,12 @@
             <router-link to="/" class="nav-link">Home</router-link>
           </li>
           <li class="nav-item">
+            <router-link to="/login" class="nav-link">Login</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link to="/signup" class="nav-link">SignUp</router-link>
+          </li>
+          <li class="nav-item">
             <router-link to="/doctors" class="nav-link">Doctors</router-link>
           </li>
           <li class="nav-item">
